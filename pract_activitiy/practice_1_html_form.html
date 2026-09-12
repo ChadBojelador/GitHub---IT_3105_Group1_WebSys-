@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form action="">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br>
+    </form>
+    
+    <form action="">
+        <br>
+        <hr>
+        <br>
+        <label for="colors">Colors:</label>
+        <select id="colors" name="colors">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <br>
+    </form>
+
+    <form id="meme-form" action="">
+
+        <label for="meme-choice">Choose a meme:</label>
+            <input list="meme-opts" id="meme-choice" name="meme-choice">
+
+        <datalist id="meme-opts">
+            <option value="Spotibai">
+            <option value="MAmaAaaA">
+            <option value="Never grow old">
+            <option value="Ken bryan corpus">
+        </datalist>
+
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+
+
+</body>
+</html>
