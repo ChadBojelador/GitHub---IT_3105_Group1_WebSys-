@@ -7,6 +7,7 @@
 
         // let name = prompt ("Please enter your name: ");
 
+        /*
         console.log("Please enter your name: ");
         let fname = prompt("Enter your name: ");
         console.log ("Welcome," + fname + "!");
@@ -19,7 +20,94 @@
         let city = prompt ("Enter your city: ");
         console.log ("You live in " + city + ".");
         
-    </script>
+
+        let num1 = 10; 
+        let num2 = 5;
+
+        console.log (num1 + num2)
+        
+
+        let age = prompt ("Please enter your age: ");
+
+        console.log ("Your age is: " + age);
+        if (age >= 18) {
+            console.log ("You are an adult.");
+        } else {
+            console.log ("You are a minor");
+        }
+
+
+        let singer = prompt ("Please enter your favorite singer: ");
+
+        switch (singer) {
+            case "Justin":
+                console.log ("The  Justin Beiber! ");
+                break;
+            case "Demi":
+                console.log ("The Demi Lovato!");
+                break;
+            case "Charlie":
+                console.log ("The Charlie Puth!");
+                break;
+            case "Adel":
+                console.log ("Adel of all time!");
+                break;   
+            default:
+                console.log ("The singer is Unknown!");
+        }
+        
+
+        for (let i = 1; i <= 5; i++) {
+        console.log(i);
+        }
+        
+
+        function greet() {
+            console.log("Hello, " + name + " !");
+        }
+
+        let name = prompt("Enter your name: ");
+        greet(name);
+
+       
+        */
+
+        let i = 1;
+        function changeText() {
     
+            document.getElementById("result").textContent = i++;
+        }
+
+        /*
+        let message = document.getElementById("message");
+        message.textContent = "Welcome to JavaScript!";
+
+        
+
+        let button = document.getElementById("btn");
+
+        button.addEventListener("click", function() {
+            document.body.style.backgroundColor = "red";
+        });
+        */
+
+    </script>
+
+    <p id="result">1</p>
+    <button onclick="changeText()">Click to iterate</button>
+
+    <h1 id="message">Hello Students!</h1>
+
+    <button id="btn">Click me to change background color</button>
+
+    <script>let button = document.getElementById("btn");
+
+    button.addEventListener("click", function() {
+            document.body.style.backgroundColor = "red";
+        });
+        
+    </script>
+
+
 </body>
 </html>
